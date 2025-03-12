@@ -30,7 +30,7 @@ namespace Remove_name_email
                 {
                     string output = line.Substring(line.IndexOf('@') + 1);
                     fixedEmailList.Add(output);
-                    Console.WriteLine(line);
+                    Console.WriteLine(output);
                 }
                 addFile(fixedEmailList);
             }
